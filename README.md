@@ -51,7 +51,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 - [ ] 40: Pause Menu
 - [ ] 41: Threaded Stage Loading
 
-## Section 2:
+## Section 5:
 - [ ] 6: Item Resources
 - [ ] 7: Inventory Manager
 - [ ] 8: Player Menu 1 - UI
@@ -63,7 +63,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 - [ ] 14: Item Equipping
 - [ ] 15: Axe Swinging
 
-## Section 3:
+## Section 6:
 - [ ] 16: Woodchopping
 - [ ] 17: First Person Weapons Rendering Problem
 - [ ] 18: Player Energy
@@ -81,7 +81,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 - [ ] 30: Adding all Items
 - [ ] 31: Populating the Island
 
-## Section 4:
+## Section 7:
 - [ ] 32: Water Shader
 - [ ] 33: Music
 - [ ] 34: SFX 1 - System Sounds
