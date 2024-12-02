@@ -3,7 +3,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 ### Lessons
 
 ## Section 1:
-- [ ] 1: Setting Up the Project
+- [x] 1: Setting Up the Project
 - [ ] 2: Player Character
 - [ ] 3: Interactable Items
 - [ ] 4: HUD, Events and Bulletins

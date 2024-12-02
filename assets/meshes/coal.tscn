@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=4 uid="uid://b5nquvnh7yclp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aaukv"]
+resource_name = "Coal"
+cull_mode = 2
+albedo_color = Color(0.046659, 0.046659, 0.046659, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_exjyl"]
+_surfaces = [{
+"aabb": AABB(-0.0807323, -0.0793876, -0.100309, 0.168061, 0.175371, 0.197167),
+"format": 34896613377,
+"index_count": 60,
+"index_data": PackedByteArray("AAACAAEAAQAFAAAAAAADAAIAAAAEAAMAAAAFAAQAAQAKAAUAAgAGAAEAAwAHAAIABAAIAAMABQAJAAQAAQAGAAoAAgAHAAYAAwAIAAcABAAJAAgABQAKAAkABgALAAoABwALAAYACAALAAcACQALAAgACgALAAkA"),
+"name": "Coal",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("vHwAAF5dAADmAhlAbzkAACBi0GUAAAAA///LQ8yFAAAhtH4pkPkAAPgCqR6hugAAZzsXxOoOAACMqpPHLiYAAGTafM5JwwAAi3M/kv//AAAAAH6oHWYAAJB+///ljQAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_wxsgi"]
+resource_name = "meshes_Icosphere_003"
+_surfaces = [{
+"aabb": AABB(-0.0807323, -0.0793876, -0.100309, 0.168061, 0.175371, 0.197167),
+"attribute_data": PackedByteArray("Fl3//4su//+ii///Lbr//7no///RRa/X0UWv19FFr9fRRa/X0UWv10UXr9dFF6/XRRev1///r9f//6/Xc9Gv13PRr9dz0a/Xc9Gv13PRr9fooq/X6KKv1+iir9fooq/X6KKv11x0r9dcdK/XXHSv11x0r9dcdK/Xiy5gr4suYK+LLmCviy5gr4suYK8AAGCvAABgr7noYK+56GCvuehgry26YK8tumCvLbpgry26YK8tumCvootgr6KLYK+ii2Cvootgr6KLYK8WXWCvFl1grxZdYK8WXWCvFl1gr1x0EYfRRRGH6KIRh0UXEYdz0RGH"),
+"format": 34896613399,
+"index_count": 60,
+"index_data": PackedByteArray("AQALAAkACAAbAAAABAAQAA0AAwAWAA8AAgAdABUABQAyABkACgAgAAcAEQAmAA4AGAArABIAHAAvABQABgAeADMADAAkACIAEwAsACcAFwAxACkAGgA0AC0AHwA4ADYAIwA6ACEAKgA7ACUAMAA5ACgANQA3AC4A"),
+"material": SubResource("StandardMaterial3D_aaukv"),
+"name": "Coal",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 60,
+"vertex_data": PackedByteArray("vHwAAF5duNC8fAAAXl0j77x8AABeXdC3vHwAAF5dc8C8fAAAXl1v4+YCGUBvOZ7A5gIZQG85BtXmAhlAbznD5+YCGUBvObjQ5gIZQG85I+8gYtBlAADD5yBi0GUAACPvIGLQZQAAb/YgYtBlAABv4yBi0GUAAN/g///LQ8yFc8D//8tDzIVv4///y0PMhd/g///LQ8yF06v//8tDzIWtyyG0fimQ+XKTIbR+KZD50LchtH4pkPlzwCG0fimQ+Z2eIbR+KZD506v4AqkeobqewPgCqR6huqOq+AKpHqG6uND4Aqkeobpyk/gCqR6hutC3ZzsXxOoOBtVnOxfE6g7i1mc7F8TqDsPnZzsXxOoOb/hnOxfE6g5v9oyqk8cuJm/4jKqTxy4mb/aMqpPHLiZ50Yyqk8cuJt/gjKqTxy4mrctk2nzOScMKrmTafM5Jw52eZNp8zknDedFk2nzOScPTq2TafM5Jw63Li3M/kv//o6qLcz+S//9nr4tzP5L//3KTi3M/kv//Cq6Lcz+S//+dngAAfqgdZp7AAAB+qB1mBtUAAH6oHWajqgAAfqgdZmevAAB+qB1m4taQfv//5Y1nr5B+///ljeLWkH7//+WNCq6Qfv//5Y1v+JB+///ljXnRQDrx1shKJenQE7OoqUnZTHdukijeclHohnnF5xZtjOtAOvHWyEol6RZtjOvISiXplpF7A3dukiiCcyESqUnZTHdukiiCcyESFWdTCtyfiA/8QPLT0BOzqKlJ2UwrxBsKFWdTCt5yUehYl0LRQDrx1vxA8tPQE7OohnnF50OOCMUWbYzrCrbkBpaRewMKtuQGlpF7Axm8XRuCcyES3J+ID43qljkrxBsKGbxdGxVnUwrcn4gPWJdC0W+l3L38QPLTjeqWOSvEGwreclHohnnF51iXQtFvpdy9Q44IxW+l3L1DjgjFjeqWOQq25AYZvF0b")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_exjyl")
+
+[node name="Coal" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_wxsgi")
+skeleton = NodePath("")

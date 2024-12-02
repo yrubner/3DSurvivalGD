@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=4 uid="uid://v41vspcn12mj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bxkoo"]
+resource_name = "Fruit"
+cull_mode = 2
+albedo_color = Color(0.839993, 0.293262, 0, 1)
+roughness = 0.2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hcqpp"]
+_surfaces = [{
+"aabb": AABB(-0.065495, -0.104183, -0.0622888, 0.13099, 0.208366, 0.124578),
+"format": 34896613377,
+"index_count": 60,
+"index_data": PackedByteArray("AAACAAEAAQAFAAAAAAADAAIAAAAEAAMAAAAFAAQAAQAKAAUAAgAGAAEAAwAHAAIABAAIAAMABQAJAAQAAQAGAAoAAgAHAAYAAwAIAAcABAAJAAgABQAKAAkABgALAAoABwALAAYACAALAAcACQALAAgACgALAAkA"),
+"name": "Fruit",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("/38AAP9/AAByGMFG5DAAAIynwUYAAAAA///BRv9/AACMp8FG/v8AAHIYwUYazwAAclg9uQAAAACM5z255DAAAIznPbkazwAAclg9uf//AAAAAD25/38AAP9/////fwAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_wbdol"]
+resource_name = "meshes_Icosphere_002"
+_surfaces = [{
+"aabb": AABB(-0.065495, -0.104183, -0.0622888, 0.13099, 0.208366, 0.124578),
+"attribute_data": PackedByteArray("Fl3//4su//+ii///uej//y26///RRa/X0UWv19FFr9fRRa/X0UWv10UXr9dFF6/XRRev1///r9f//6/Xc9Gv13PRr9dz0a/Xc9Gv13PRr9fooq/X6KKv1+iir9fooq/X6KKv11x0r9dcdK/XXHSv11x0r9dcdK/Xiy5gr4suYK+LLmCviy5gr4suYK8AAGCvAABgr7noYK+56GCvuehgry26YK8tumCvLbpgry26YK8tumCvootgr6KLYK+ii2Cvootgr6KLYK8WXWCvFl1grxZdYK8WXWCvFl1gr9FFEYdcdBGHRRcRh+iiEYdz0RGH"),
+"format": 34896613399,
+"index_count": 60,
+"index_data": PackedByteArray("AQALAAkABwAbAAAAAwAPAA0ABAAXABAAAgAdABUABQAyABkACgAgAAgAEQAmAA4AGAArABIAHAAvABQABgAeADMADAAkACIAEwAsACcAFgAxACkAGgA0AC0AHwA3ADUAIwA5ACEAKgA7ACUAMAA6ACgANgA4AC4A"),
+"material": SubResource("StandardMaterial3D_bxkoo"),
+"name": "Fruit",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 60,
+"vertex_data": PackedByteArray("/38AAP9/ZMX/fwAA/38T9P9/AAD/f8eg/38AAP9/adz/fwAA/38ysHIYwUbkMC3AchjBRuQwsNlyGMFG5DBkxXIYwUbkMDnzchjBRuQwE/SMp8FGAAA584ynwUYAABP0jKfBRgAAOfOMp8FGAABp3IynwUYAALDZ///BRv9/adz//8FG/38ysP//wUb/f7DZ///BRv9/wKb//8FG/38twIynwUb+/+WNjKfBRv7/x6CMp8FG/v/ljYynwUb+/zKwjKfBRv7/wKZyGMFGGs8twHIYwUYaz8CmchjBRhrPZMVyGMFGGs/ljXIYwUYaz8egclg9uQAAsNlyWD25AABp3HJYPbkAADnzclg9uQAAE/RyWD25AAA584znPbnkMBP0jOc9ueQwOfOM5z255DBkxYznPbnkMLDZjOc9ueQwLcCM5z25Gs/HoIznPbkaz+WNjOc9uRrPZMWM5z25Gs/ApoznPbkazy3Aclg9uf//wKZyWD25//8ysHJYPbn//+WNclg9uf//x6ByWD25///ljQAAPbn/fy3AAAA9uf9/sNkAAD25/3/ApgAAPbn/f2ncAAA9uf9/MrD/f////39p3P9/////fzKw/3////9/E/T/f////3/HoP9/////f2TF50fz4ypYjPo5IS6u/G9vL4pSnkTocHP49INE9OdH8+PNdr3+KliM+s12vf4qWIz6MYlBAfxvby8KfLoL/G9vL4pSnkQKfLoL/HEmFRaPiwf7VbnbOSEurgOqRSSKUp5E/HEmFehwc/gCjtjq50fz4/tVuds5IS6u9INE9AKQj9DNdr3+1KdyBTGJQQHUp3IFMYlBARe4CxwKfLoLFo+LB8Xe0FEDqkUkF7gLHPxxJhUWj4sHAo7Y6nStYLv7Vbnbxd7QUQOqRSTocHP49INE9AKO2OoCkI/QdK1guwKQj9B0rWC71KdyBcXe0FEXuAsc")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_hcqpp")
+
+[node name="Fruit" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_wbdol")
+skeleton = NodePath("")

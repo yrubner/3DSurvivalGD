@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=4 uid="uid://diipgdlaugjn5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iyup4"]
+resource_name = "Stone"
+cull_mode = 2
+albedo_color = Color(0.364706, 0.364706, 0.447059, 1)
+roughness = 0.8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jnorl"]
+_surfaces = [{
+"aabb": AABB(-0.0872291, -0.0815655, -0.100309, 0.168044, 0.173336, 0.197167),
+"format": 34896613377,
+"index_count": 60,
+"index_data": PackedByteArray("AAACAAEAAQAFAAAAAAADAAIAAAAEAAMAAAAFAAQAAQAKAAUAAgAGAAEAAwAHAAIABAAIAAMABQAJAAQAAQAGAAoAAgAHAAYAAwAIAAcABAAJAAgABQAKAAkABgALAAoABwALAAYACAALAAcACQALAAgACgALAAkA"),
+"name": "Stone",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("1nMAAF5dAAAABVJRbzkAAPFoqWkAAAAA//9fMcyFAADxsLwhkPkAAAAA1y+hugAA61B9zeoOAABtv1LBLiYAANDvgMFJwwAA6oCxk///AAD1ETu6HWYAAHWc///ljQAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_iajt1"]
+resource_name = "meshes_Icosphere_001"
+_surfaces = [{
+"aabb": AABB(-0.0872291, -0.0815655, -0.100309, 0.168044, 0.173336, 0.197167),
+"attribute_data": PackedByteArray("Fl3//4su//+ii///Lbr//7no///RRa/X0UWv19FFr9fRRa/X0UWv10UXr9dFF6/XRRev1///r9f//6/Xc9Gv13PRr9dz0a/Xc9Gv13PRr9fooq/X6KKv1+iir9fooq/X6KKv11x0r9dcdK/XXHSv11x0r9dcdK/Xiy5gr4suYK+LLmCviy5gr4suYK8AAGCvAABgr7noYK+56GCvuehgry26YK8tumCvLbpgry26YK8tumCvootgr6KLYK+ii2Cvootgr6KLYK8WXWCvFl1grxZdYK8WXWCvFl1gr1x0EYfRRRGH6KIRh0UXEYdz0RGH"),
+"format": 34896613399,
+"index_count": 60,
+"index_data": PackedByteArray("AQALAAkACAAbAAAABAAQAA0AAwAWAA8AAgAdABUABQAyABkACgAfAAcAEQAlAA4AGAArABIAHAAvABQABgAeADMADAAkACIAEwAsACcAFwAxACkAGgA0AC0AIAA4ADYAIwA6ACEAKgA7ACYAMAA5ACgANQA3AC4A"),
+"material": SubResource("StandardMaterial3D_iyup4"),
+"name": "Stone",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 60,
+"vertex_data": PackedByteArray("1nMAAF5doM7WcwAAXl0H7dZzAABeXbm21nMAAF5dW8LWcwAAXl3+5AAFUlFvOWvBAAVSUW85JdYABVJRbznq5wAFUlFvOaDOAAVSUW85B+3xaKlpAADq5/FoqWkAAAft8WipaQAAtfXxaKlpAAD+5PFoqWkAAEPh//9fMcyFW8L//18xzIX+5P//XzHMhUPh//9fMcyFW6v//18xzIXbyvGwvCGQ+fCS8bC8IZD5ubbxsLwhkPlbwvGwvCGQ+daa8bC8IZD5W6sAANcvobprwQAA1y+huo6sAADXL6G6oM4AANcvobrwkgAA1y+hurm261B9zeoOJdbrUH3N6g7q5+tQfc3qDiXa61B9zeoORPXrUH3N6g619W2/UsEuJkT1bb9SwS4mtfVtv1LBLiZD4W2/UsEuJivPbb9SwS4m28rQ74DBScOQqtDvgMFJw9aa0O+AwUnDK8/Q74DBScNbq9DvgMFJw9vK6oCxk///jqzqgLGT///dseqAsZP///CS6oCxk///kKrqgLGT///WmvURO7odZmvB9RE7uh1mJdb1ETu6HWaOrPURO7odZt2x9RE7uh1mJdp1nP//5Y3dsXWc///ljSXadZz//+WNkKp1nP//5Y1E9XWc///ljSvPsz+52ZxP4+3hGuKnRki6UmppqC6HeoLoG4GU6JR0d/CzP7nZnE/j7ZR0d/CcT+PtU26QBGppqC4GbTMbRki6UmppqC4GbTMbZGu8ElSVVQlkU2fN4Rrip0ZIulLCuL8GZGu8Eod6guglmgvHsz+52WRTZ83hGuKnG4GU6JR0d/BBkkrAM7KPAVNukAQzso8BU26QBAZtMxs6tqUXVJVVCf7k+TrCuL8GOralF2RrvBJUlVUJJZoLx8qmrLZkU2fN/uT5OsK4vwaHeoLoG4GU6CWaC8fKpqy2QZJKwMqmrLZBkkrA/uT5OjOyjwE6tqUX")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jnorl")
+
+[node name="Stone" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_iajt1")
+skeleton = NodePath("")
