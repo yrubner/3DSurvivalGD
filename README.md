@@ -5,7 +5,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 ## Section 1:
 - [x] 1: Setting Up the Project
 - [x] 2: Player Character
-- [ ] 3: Interactable Items
+- [x] 3: Interactable Items
 - [ ] 4: HUD, Events and Bulletins
 - [ ] 5: Scene Hierarchy and Stages
 
