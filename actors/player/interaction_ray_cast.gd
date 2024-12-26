@@ -17,4 +17,4 @@ func check_interaction() -> void:
 			
 	elif is_hitting:
 		is_hitting = false
-		EventSystem.BUL_destroy_bulletin.emit(BulletinConfig.Keys.InteractionPrompt)			
+		EventSystem.BUL_destroy_bulletin.emit(BulletinConfig.Keys.InteractionPrompt)
