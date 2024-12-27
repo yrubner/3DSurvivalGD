@@ -12,7 +12,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 ## Section 2:
 - [x] 6: Item Resources
 - [x] 7: Inventory Manager
-- [ ] 8: Player Menu 1 - UI
+- [x] 8: Player Menu 1 - UI
 - [ ] 9: Player Menu 2 - Items
 - [ ] 10: Player Menu 3 - Item Descriptions
 - [ ] 11: Crafting 1 - Pre-configurations
