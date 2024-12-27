@@ -10,7 +10,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 - [x] 5: Scene Hierarchy and Stages
 
 ## Section 2:
-- [ ] 6: Item Resources
+- [x] 6: Item Resources
 - [ ] 7: Inventory Manager
 - [ ] 8: Player Menu 1 - UI
 - [ ] 9: Player Menu 2 - Items
