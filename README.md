@@ -15,7 +15,7 @@ This is my personal repository for the 3D Survival Game from the udemy course "H
 - [x] 8: Player Menu 1 - UI
 - [x] 9: Player Menu 2 - Items
 - [x] 10: Player Menu 3 - Item Descriptions
-- [ ] 11: Crafting 1 - Pre-configurations
+- [x] 11: Crafting 1 - Pre-configurations
 - [ ] 12: Crafting 2 - Creating new Items
 - [ ] 13: Hotbar
 - [ ] 14: Item Equipping
