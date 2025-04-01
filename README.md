@@ -1,5 +1,7 @@
 This is my personal repository for the 3D Survival Game from the udemy course "How to Create a 3D Survival Game in Godot 4.3 with GDScript"
 
+![](./demo.gif)
+
 ### Lessons
 
 ## Section 1:
