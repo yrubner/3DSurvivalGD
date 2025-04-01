@@ -1,7 +1,7 @@
 [gd_scene load_steps=20 format=3 uid="uid://cbu653rh8n1bg"]
 
 [ext_resource type="Texture2D" uid="uid://cfl20hqb34qqo" path="res://assets/textures/panelInset_beige.png" id="1_8ofmk"]
-[ext_resource type="Script" path="res://bulletins/player_menus/player_menu_base.gd" id="1_pxknw"]
+[ext_resource type="Script" uid="uid://ddruylh0pf52q" path="res://bulletins/player_menus/player_menu_base.gd" id="1_pxknw"]
 [ext_resource type="Texture2D" uid="uid://ll4au6mtwyji" path="res://assets/textures/cross.png" id="2_h1btp"]
 [ext_resource type="PackedScene" uid="uid://dl5h8yxvwddao" path="res://ui/custom_nodes/inventory_slot.tscn" id="2_hlr5d"]
 [ext_resource type="Texture2D" uid="uid://bpa8nw8bqq8m6" path="res://assets/textures/panelInset_brown.png" id="3_1ybyj"]

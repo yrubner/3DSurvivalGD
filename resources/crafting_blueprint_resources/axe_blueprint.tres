@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="CraftingBlueprintResource" load_steps=6 format=3 uid="uid://c52vm3wyd1oyt"]
 
-[ext_resource type="Script" path="res://resources/crafting_blueprint_resources/blueprint_cost_data.gd" id="1_7de7j"]
-[ext_resource type="Script" path="res://resources/crafting_blueprint_resources/crafting_blueprint_resource.gd" id="2_w4pnf"]
+[ext_resource type="Script" uid="uid://h6ujt1osae10" path="res://resources/crafting_blueprint_resources/blueprint_cost_data.gd" id="1_7de7j"]
+[ext_resource type="Script" uid="uid://basjyte7wnojl" path="res://resources/crafting_blueprint_resources/crafting_blueprint_resource.gd" id="2_w4pnf"]
 
 [sub_resource type="Resource" id="Resource_r2u1k"]
 script = ExtResource("1_7de7j")

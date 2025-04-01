@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ccgt2wk1bx12i"]
 
-[ext_resource type="Script" path="res://bulletins/interaction_prompt.gd" id="1_wphqp"]
+[ext_resource type="Script" uid="uid://dmnm4kew08nd8" path="res://bulletins/interaction_prompt.gd" id="1_wphqp"]
 
 [node name="InteractionPrompt" type="Control"]
 layout_mode = 3
